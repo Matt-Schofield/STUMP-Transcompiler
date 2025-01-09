@@ -1,0 +1,13 @@
+adds R1, r2, R3
+add R6, r2, R2, asR
+sub R5, R6, #-13
+sub r4, r5, r3, ror
+//mov r1, R2
+
+or R2, R3, R6
+BCS #0056
+
+adds R1, r2, R3
+
+st R2, R7, #-3
+ld R1, r0, r3
